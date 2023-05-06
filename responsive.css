@@ -1,5 +1,5 @@
 @media screen and (min-width: 640px) {
-    /* Header */
+    /* Header - Navbar */
     .main .nav {
         flex-direction: row;
         justify-content: space-between;
@@ -32,5 +32,14 @@
     /* Panel - Grid Bugs! */
     .home-layout .panel-i {
         grid-column: 1 / -1;
+    }
+}
+
+/* Smaller Devices */
+@media screen and (max-width: 639px) {
+    /* Header - Navbar */
+    .main .nav {
+        flex-direction: column;
+        justify-content: space-between;
     }
 }
