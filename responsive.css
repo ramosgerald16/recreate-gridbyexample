@@ -13,10 +13,24 @@
     .panel-box {
         grid-column: auto / span 2;
     }
+    /* Panel - CSS Grid Layout */
     .panel-primary {
         grid-column: 1 / 4;
     }
+    /* Panel - Get Started Guide */
     .homepage-bar {
+        grid-column: 1 / -1;
+    }
+    /* Panel - Patterns & Resources */
+    .home-layout .panel-c, .home-layout .panel-d {
+        grid-column: auto / span 3;
+    }
+    /* Panel - About CSS Grid */
+    .home-layout .panel-g {
+        grid-column: auto / span 1;
+    }
+    /* Panel - Grid Bugs! */
+    .home-layout .panel-i {
         grid-column: 1 / -1;
     }
 }
