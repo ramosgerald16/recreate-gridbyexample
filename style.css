@@ -27,6 +27,7 @@
     background-color: rgba(255, 255, 255, 0.6);
     transition: all;
     transition-duration: .5s;
+    margin-bottom: 26px;
 }
 
 .main .nav {
@@ -45,4 +46,41 @@
     margin: 0;
     font-weight: bold;
     color: #000;
+}
+
+.home-layout h1, .home-layout h2, .panel-box h3, .example-layout h3 {
+    margin: 0;
+}
+
+.panel-primary {
+    background-image: url(./img/inflicted.png) !important;
+    color: #fff;
+}
+
+.panel-box {
+    background-image: url(./img/tiny_grid.png);
+    border: 1px solid #999;
+    border-radius: 3px;
+    padding: 1rem;
+    position: relative;
+}
+
+.panel-box > a:link, .panel-box > a:visited {
+    text-decoration: none;
+    color: #000;
+}
+
+.panel-primary a:link, .panel-primary a:visited, .homepage-bar a:link, .homepage-bar a:visited {
+    color: #fff;
+}
+
+.homepage-bar {
+    background-color: #5e35b1;
+    color: #fff;
+    padding: 1rem;
+    position: relative;
+}
+
+.homepage-bar a {
+    text-decoration: none;
 }

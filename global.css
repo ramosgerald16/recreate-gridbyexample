@@ -1,6 +1,8 @@
 * {
-    margin: unset;
-    padding: unset;
+    line-height: 26px;
+    line-height: 1.625rem;
+    margin: 0px 0px 26px;
+    margin: 0rem 0rem 1.625rem;
 }
 
 html {
@@ -26,6 +28,11 @@ h1 {
     line-height: 3.25rem;
     margin-top: 6.5rem;
     margin-bottom: 1.625rem;
+}
+
+h2 {
+    font-size: 1.6875rem;
+    line-height: 2.4375rem;
 }
 
 h1 a:link, h1 a:visited, h1 a:hover, h1 a:visited:hover, h1 a:visited {

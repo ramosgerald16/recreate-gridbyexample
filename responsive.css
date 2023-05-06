@@ -1,6 +1,22 @@
 @media screen and (min-width: 640px) {
+    /* Header */
     .main .nav {
         flex-direction: row;
         justify-content: space-between;
+    }
+    /* Body */
+    .home-layout {
+        display: grid;
+        grid-column-gap: 2rem;
+        grid-template-columns: 1fr 2fr 2fr 1fr 1fr;
+    }
+    .panel-box {
+        grid-column: auto / span 2;
+    }
+    .panel-primary {
+        grid-column: 1 / 4;
+    }
+    .homepage-bar {
+        grid-column: 1 / -1;
     }
 }
