@@ -84,3 +84,16 @@
 .homepage-bar a {
     text-decoration: none;
 }
+
+.flag-new::before {
+    content: "New!";
+    background-color: #087f23;
+    position: absolute;
+    top: -0.8rem;
+    left: -0.8rem;
+    padding: 0.3rem 0.5rem;
+    display: inline-block;
+    color: #fff;
+    font-weight: bold;
+    transform: rotate(-20deg);
+}
