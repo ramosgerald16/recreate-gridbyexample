@@ -15,6 +15,10 @@ html {
     line-height: 1.625rem;
 }
 
+body {
+    margin: 0;
+}
+
 body, article, section, footer, header, div, input, nav, article ol, article ul, blockquote, figure {
     box-sizing: border-box;
 }
